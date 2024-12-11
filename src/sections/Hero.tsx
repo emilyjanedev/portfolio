@@ -5,7 +5,7 @@ import MagicButton from "@/components/MagicButton";
 
 export const HeroSection = () => {
   return (
-    <div className="py-32 md:py-48 lg:py-60">
+    <div className="py-32 md:py-48 lg:py-60 relative z-2">
       <div className="container">
         <div className="flex flex-col items-center">
           <Image
@@ -23,7 +23,7 @@ export const HeroSection = () => {
             <h1 className="text-3xl md:text-5xl text-center mt-8 tracking-wide font-bold">
               Crafting Code and Chasing Curiosity
             </h1>
-            <p className="mt-4 text-center text-white/70 md:text-lg">
+            <p className="mt-4 text-center text-white/80 md:text-lg">
               Hi, I'm Emily! I'm a full-stack dev driven by a love for solving
               problems and creating user-friendly solutions. With a passion for
               continuous learning and exploration, I bring enthusiasm,
