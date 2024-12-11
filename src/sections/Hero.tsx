@@ -5,7 +5,7 @@ import MagicButton from "@/components/MagicButton";
 
 export const HeroSection = () => {
   return (
-    <div className="py-32 md:py-48 lg:py-60 relative z-2">
+    <div className="py-32 md:py-48 lg:py-40 relative z-2">
       <div className="container">
         <div className="flex flex-col items-center">
           <Image

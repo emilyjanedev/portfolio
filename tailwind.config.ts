@@ -58,13 +58,13 @@ const config: Config = {
         },
         moveVertical: {
           "0%": {
-            transform: "translateY(-50%)",
+            transform: "translateY(-80%)",
           },
           "50%": {
-            transform: "translateY(50%)",
+            transform: "translateY(80%)",
           },
           "100%": {
-            transform: "translateY(-50%)",
+            transform: "translateY(-80%)",
           },
         },
         shimmer: {
