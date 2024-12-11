@@ -2,28 +2,24 @@ import { portfolioProjects } from "@/data";
 import Image from "next/image";
 import CheckCircleIcon from "@/assets/icons/check-circle.svg";
 import ArrowUpRightIcon from "@/assets/icons/arrow-up-right.svg";
+import SectionHeader from "@/components/SectionHeader";
+import Card from "@/components/Card";
 
 export const ProjectsSection = () => {
   return (
     <section className="pb-16 lg:py-24">
       <div className="container relative">
-        <div className="flex justify-center">
-          <p className="uppercase font-semibold tracking-widest bg-gradient-to-r from-emerald-300 to-emerald-200 bg-clip-text text-transparent">
-            Always Learning
-          </p>
-        </div>
-        <h2 className="text-3xl md:text-5xl text-center mt-6 font-bold">
-          Featured Projects
-        </h2>
-        <p className="text-center md:text-lg lg:text-xl text-white/80 mt-4 max-w-md mx-auto">
-          Check out some of my latest projects to see what topics and
-          technologies I have been diving into.
-        </p>
+        <SectionHeader
+          title="Featured Projects"
+          subheader="Always Learning"
+          description="Check out some of my latest projects to see what topics and
+          technologies I have been diving into."
+        />
         <div className="flex flex-col mt-10 md:mt-20 gap-20">
           {portfolioProjects.map((project) => (
-            <div
+            <Card
               key={project.title}
-              className="bg-gray-900/80 backdrop-blur rounded-3xl relative z-0 overflow-hidden after:content-[''] after:absolute after:inset-0 after:z-10 after:outline-2 after:outline after:-outline-offset-2 after:rounded-3xl after:outline-white/30 after:pointer-events-none px-8 pt-8 md:pt-12 md:px-10 lg:pt-16 lg:px-20"
+              className="px-8 pt-8 pb-0 md:pt-12 md:px-10 lg:pt-16 lg:px-20"
             >
               <div className="lg:grid lg:grid-cols-2 lg:gap-16">
                 <div className="lg:pb-16">
@@ -67,7 +63,7 @@ export const ProjectsSection = () => {
                   />
                 </div>
               </div>
-            </div>
+            </Card>
           ))}
         </div>
       </div>
