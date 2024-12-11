@@ -690,6 +690,12 @@ video {
 .bottom-0 {
   bottom: 0px;
 }
+.left-\[calc\(var\(--random-x\)\)\] {
+  left: calc(var(--random-x));
+}
+.top-\[calc\(var\(--random-y\)\)\] {
+  top: calc(var(--random-y));
+}
 .z-50 {
   z-index: 50;
 }
