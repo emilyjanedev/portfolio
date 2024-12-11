@@ -8,23 +8,24 @@ export const ProjectsSection = () => {
     <section className="pb-16">
       <div className="container relative">
         <div className="flex justify-center">
-          <p className="uppercase font-semibold tracking-widest bg-gradient-to-r from-emerald-300 to-sky-400 bg-clip-text text-transparent">
-            Real-World Results
+          <p className="uppercase font-semibold tracking-widest bg-gradient-to-r from-emerald-300 to-emerald-200 bg-clip-text text-transparent">
+            Always Learning
           </p>
         </div>
-        <h2 className="text-3xl text-center mt-6 font-semibold">
+        <h2 className="text-3xl text-center mt-6 font-bold">
           Featured Projects
         </h2>
         <p className="text-center text-white/80 mt-4">
-          Check out what I've been working on lately.
+          Check out some of my latest projects to see what topics and
+          technologies I have been diving into lately.
         </p>
         <div className="flex flex-col mt-10 gap-20">
           {portfolioProjects.map((project) => (
             <div
               key={project.title}
-              className="bg-gray-800 rounded-3xl relative z-0 overflow-hidden after:content-[''] after:absolute after:inset-0 after:z-10 after:outline-2 after:outline after:-outline-offset-2 after:rounded-3xl after:outline-white/20 px-8 pt-8"
+              className="bg-gray-900 rounded-3xl relative z-0 overflow-hidden after:content-[''] after:absolute after:inset-0 after:z-10 after:outline-2 after:outline after:-outline-offset-2 after:rounded-3xl after:outline-white/20 px-8 pt-8"
             >
-              <div className="bg-gradient-to-r from-emerald-300 to-sky-400 inline-flex gap-2 font-bold uppercase tracking-widest text-sm text-transparent bg-clip-text">
+              <div className="bg-gradient-to-r from-emerald-300 to-emerald-200 inline-flex gap-2 font-bold uppercase tracking-widest text-sm text-transparent bg-clip-text">
                 <span>{project.company}</span>
                 <span>&bull;</span>
                 <span> {project.year}</span>

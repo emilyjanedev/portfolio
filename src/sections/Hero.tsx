@@ -21,14 +21,14 @@ export const HeroSection = () => {
           </div>
           <div className="max-w-lg mx-auto">
             <h1 className="text-3xl md:text-5xl text-center mt-8 tracking-wide font-bold">
-              Crafting Code and Chasing Curiosity
+              Hi there, I'm Emily!
             </h1>
             <p className="mt-4 text-center text-white/80 md:text-lg">
-              Hi, I'm Emily! I'm a full-stack dev driven by a love for solving
-              problems and creating user-friendly solutions. With a passion for
-              continuous learning and exploration, I bring enthusiasm,
-              adaptability, and a fresh perspective to every project. Let's
-              build something amazing together!
+              I'm a full-stack dsoftware developer driven by a love for tech and
+              solving problems. With a passion for continuous learning and
+              exploration, I bring enthusiasm, adaptability, and a fresh
+              perspective to every project. Let's build something amazing
+              together!
             </p>
           </div>
           <div className="flex flex-col md:flex-row justify-center items-center mt-8 gap-4">
