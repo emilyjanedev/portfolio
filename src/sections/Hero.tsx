@@ -24,7 +24,7 @@ export const HeroSection = () => {
               Hi there, I'm Emily!
             </h1>
             <p className="mt-4 text-center text-white/80 md:text-lg">
-              I'm a full-stack dsoftware developer driven by a love for tech and
+              I'm a full-stack software developer driven by a love for tech and
               solving problems. With a passion for continuous learning and
               exploration, I bring enthusiasm, adaptability, and a fresh
               perspective to every project. Let's build something amazing
