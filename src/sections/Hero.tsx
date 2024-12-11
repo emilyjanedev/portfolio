@@ -34,7 +34,7 @@ export const HeroSection = () => {
           <div className="flex flex-col md:flex-row justify-center items-center mt-8 gap-4">
             <a href="#">
               <MagicButton
-                title="Explore my Work"
+                title="See my Work"
                 icon={<ArrowDown className="size-4" />}
                 position="right"
               />

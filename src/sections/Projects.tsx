@@ -23,7 +23,7 @@ export const ProjectsSection = () => {
           {portfolioProjects.map((project) => (
             <div
               key={project.title}
-              className="bg-gray-900 rounded-3xl relative z-0 overflow-hidden after:content-[''] after:absolute after:inset-0 after:z-10 after:outline-2 after:outline after:-outline-offset-2 after:rounded-3xl after:outline-white/20 px-8 pt-8"
+              className="bg-gray-900/80 backdrop-blur rounded-3xl relative z-0 overflow-hidden after:content-[''] after:absolute after:inset-0 after:z-10 after:outline-2 after:outline after:-outline-offset-2 after:rounded-3xl after:outline-white/30 px-8 pt-8"
             >
               <div className="bg-gradient-to-r from-emerald-300 to-emerald-200 inline-flex gap-2 font-bold uppercase tracking-widest text-sm text-transparent bg-clip-text">
                 <span>{project.company}</span>
@@ -41,9 +41,13 @@ export const ProjectsSection = () => {
                   </li>
                 ))}
               </ul>
-              <a href={project.link}>
-                <button className="bg-white text-gray-950 h-12 w-full rounded-xl font-semibold inline-flex items-center justify-center gap-2 mt-8">
-                  <span> Visit Live Site</span>
+              <a href={project.link} target="_blank">
+                <button className="bg-white text-gray-950 h-12 w-full rounded-xl font-semibold inline-flex items-center justify-center gap-2 mt-8 relative z-20">
+                  <span>
+                    {project.isDeployed
+                      ? "Visit Live Site"
+                      : "Visit GitHub Repo"}
+                  </span>
                   <ArrowUpRightIcon className="size-4" />
                 </button>
               </a>
