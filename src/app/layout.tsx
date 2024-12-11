@@ -12,7 +12,7 @@ const calistoga = Calistoga({
 });
 
 export const metadata: Metadata = {
-  title: "My Portfolio",
+  title: "Emily Schur | Developer",
   description: "Created with the help of Frontend Tribe",
 };
 
