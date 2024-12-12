@@ -16,7 +16,7 @@ const SectionHeader = ({
           {subheader}
         </p>
       </div>
-      <h2 className="text-3xl md:text-5xl text-center mt-6 font-bold max-w-lg mx-auto">
+      <h2 className="text-3xl md:text-5xl text-center mt-6 font-bold max-w-2xl mx-auto">
         {title}
       </h2>
       <p className="text-center md:text-lg lg:text-xl text-white/80 mt-4 max-w-md mx-auto">

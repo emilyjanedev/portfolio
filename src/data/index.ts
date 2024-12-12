@@ -3,6 +3,7 @@ import lightSaasLandingPage from "@/assets/images/light-saas-landing-page.png";
 import aiStartupLandingPage from "@/assets/images/ai-startup-landing-page.png";
 import jennyImage from "@/assets/images/jenny.jpg";
 import mariaImage from "@/assets/images/maria.jpg";
+import brainstationImage from "@/assets/images/brainstation.png";
 import JavaScriptIcon from "@/assets/icons/square-js.svg";
 import Html5Icon from "@/assets/icons/html5.svg";
 import Css3Icon from "@/assets/icons/css3.svg";
@@ -71,6 +72,12 @@ export const testimonials = [
     position: "Full-Stack Developer @ Brainstation",
     text: "Emily's technical skills are impressive, and she consistently demonstrated a strong ability to solve problems efficiently and effectively. Beyond her coding skills, her communication, leadership, and collaboration abilities made her an invaluable part of our group project. She was always proactive in sharing ideas and offering support, ensuring the team stayed focused and on track toward our goals.",
     avatar: jennyImage,
+  },
+  {
+    name: "Former Teacher",
+    position: "Educator @ Brainstation",
+    text: "Emily is a strong and confident developer who has demonstrated exceptional team leadership skills as well as great communication skills. She has the ability to jump into any new technical challenge and excel, with great attention to detail",
+    avatar: brainstationImage,
   },
 ];
 
