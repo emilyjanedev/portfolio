@@ -67,9 +67,19 @@ export const AboutSection = () => {
               ))}
             </div>
           </Card>
-          <Card>
-            <Image src={mapImage} alt="Map image" />
-            <Image src={headshot} alt="Emily's portrait" />
+          <Card className="h-[320px] p-0 relative">
+            <Image
+              src={mapImage}
+              alt="Map image"
+              className="h-full w-full object-cover"
+            />
+            <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 size-14 rounded-full outline outline-3 outline-emerald-300 flex justify-center items-center">
+              <Image
+                src={headshot}
+                alt="Emily's portrait"
+                className="size-14 rounded-full"
+              />
+            </div>
           </Card>
         </div>
       </div>
