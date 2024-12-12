@@ -164,3 +164,18 @@ export const hobbies = [
     top: "70%",
   },
 ];
+
+export const footerLinks = [
+  {
+    title: "LinkedIn",
+    href: "https://www.linkedin.com/in/emilyjschur/",
+  },
+  {
+    title: "GitHub",
+    href: "https://github.com/emilyjanedev",
+  },
+  {
+    title: "Email",
+    href: "mailto:ejschur@gmail.com",
+  },
+];
