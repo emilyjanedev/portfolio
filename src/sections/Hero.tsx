@@ -27,8 +27,7 @@ export const HeroSection = () => {
               I'm a full-stack software developer driven by a love for tech and
               solving problems. With a passion for continuous learning and
               exploration, I bring enthusiasm, adaptability, and a fresh
-              perspective to every project. Let's build something amazing
-              together!
+              perspective to every project.
             </p>
           </div>
           <div className="flex flex-col md:flex-row justify-center items-center mt-8 gap-4">

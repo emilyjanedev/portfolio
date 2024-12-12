@@ -117,25 +117,43 @@ export const hobbies = [
   {
     title: "Cycling",
     emoji: "🚴🏻‍♀️",
+    left: "5%",
+    top: "5%",
   },
   {
     title: "Photography",
     emoji: "📸",
-  },
-  {
-    title: "Reading",
-    emoji: "📚",
+    left: "50%",
+    top: "5%",
   },
   {
     title: "Gaming",
     emoji: "🎮",
+    left: "35%",
+    top: "40%",
+  },
+  {
+    title: "Reading",
+    emoji: "📚",
+    left: "10%",
+    top: "35%",
   },
   {
     title: "Hiking",
     emoji: "🥾",
+    left: "70%",
+    top: "45%",
   },
   {
     title: "Fitness",
     emoji: "🏃🏻‍♀️",
+    left: "5%",
+    top: "65%",
+  },
+  {
+    title: "Cats",
+    emoji: "🐱",
+    left: "45%",
+    top: "70%",
   },
 ];
