@@ -26,6 +26,7 @@ const config: Config = {
         serif: "var(--font-serif)",
       },
       animation: {
+        pingLarge: "pingLarge 1s ease-in-out infinite",
         first: "moveVertical 30s ease infinite",
         second: "moveInCircle 20s reverse infinite",
         third: "moveInCircle 40s linear infinite",
@@ -34,6 +35,12 @@ const config: Config = {
         shimmer: "shimmer 2s linear infinite",
       },
       keyframes: {
+        pingLarge: {
+          "75%, 100%": {
+            transform: "scale(3)",
+            opacity: "0",
+          },
+        },
         moveHorizontal: {
           "0%": {
             transform: "translateX(-50%) translateY(-10%)",

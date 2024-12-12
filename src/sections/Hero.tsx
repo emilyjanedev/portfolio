@@ -13,8 +13,10 @@ export const HeroSection = () => {
             alt="Emily Schur headshot"
             className="rounded-full size-[125px]"
           />
-          <div className="bg-gray-950 border border-gray-800 mt-2 px-4 py-1.5 inline-flex items-center gap-2 rounded-full">
-            <div className="bg-green-500 size-2.5 rounded-full"></div>
+          <div className="bg-gray-950 border border-gray-800 mt-2 px-4 py-1.5 inline-flex items-center gap-3 rounded-full">
+            <div className="bg-green-500 size-2.5 rounded-full relative">
+              <div className="bg-green-500 absolute inset-0 rounded-full animate-pingLarge"></div>
+            </div>
             <div className="text-small font-medium">
               Seeking a Full-Time Dev Role
             </div>
