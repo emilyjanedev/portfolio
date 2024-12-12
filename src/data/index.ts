@@ -3,6 +3,15 @@ import lightSaasLandingPage from "@/assets/images/light-saas-landing-page.png";
 import aiStartupLandingPage from "@/assets/images/ai-startup-landing-page.png";
 import jennyImage from "@/assets/images/jenny.jpg";
 import mariaImage from "@/assets/images/maria.jpg";
+import JavaScriptIcon from "@/assets/icons/square-js.svg";
+import Html5Icon from "@/assets/icons/html5.svg";
+import Css3Icon from "@/assets/icons/css3.svg";
+import ReactIcon from "@/assets/icons/react.svg";
+import GitHubIcon from "@/assets/icons/github.svg";
+import TailwindIcon from "@/assets/icons/tailwind.svg";
+import NextIcon from "@/assets/icons/next.svg";
+import NodeIcon from "@/assets/icons/node.svg";
+import MySqlIcon from "@/assets/icons/mysql.svg";
 
 export const portfolioProjects = [
   {
@@ -62,5 +71,71 @@ export const testimonials = [
     position: "Full-Stack Developer @ Brainstation",
     text: "Emily's technical skills are impressive, and she consistently demonstrated a strong ability to solve problems efficiently and effectively. Beyond her coding skills, her communication, leadership, and collaboration abilities made her an invaluable part of our group project. She was always proactive in sharing ideas and offering support, ensuring the team stayed focused and on track toward our goals.",
     avatar: jennyImage,
+  },
+];
+
+export const toolbox = [
+  {
+    title: "JavaScript",
+    iconType: JavaScriptIcon,
+  },
+  {
+    title: "HTML5",
+    iconType: Html5Icon,
+  },
+  {
+    title: "CSS3",
+    iconType: Css3Icon,
+  },
+  {
+    title: "Tailwind",
+    iconType: TailwindIcon,
+  },
+  {
+    title: "React",
+    iconType: ReactIcon,
+  },
+  {
+    title: "Next.js",
+    iconType: NextIcon,
+  },
+  {
+    title: "Node.js",
+    iconType: NodeIcon,
+  },
+  {
+    title: "MySQL",
+    iconType: MySqlIcon,
+  },
+  {
+    title: "GitHub",
+    iconType: GitHubIcon,
+  },
+];
+
+export const hobbies = [
+  {
+    title: "Cycling",
+    emoji: "🚴🏻‍♀️",
+  },
+  {
+    title: "Photography",
+    emoji: "📸",
+  },
+  {
+    title: "Reading",
+    emoji: "📚",
+  },
+  {
+    title: "Gaming",
+    emoji: "🎮",
+  },
+  {
+    title: "Hiking",
+    emoji: "🥾",
+  },
+  {
+    title: "Fitness",
+    emoji: "🏃🏻‍♀️",
   },
 ];
