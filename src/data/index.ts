@@ -64,19 +64,19 @@ export const testimonials = [
   {
     name: "Maria Jose Cilloniz",
     position: "Software Engineer @ Brainstation",
-    text: "Emily is amazing at guiding teams. She has a talent for breaking down complicated tasks and fostering effective collaboration. When team members like myself needed support, she provided clear guidance and assistance, ensuring everyone stayed on track while maintaining a positive environment. I particularly admire her ability to lead with both confidence and empathy, and I learned a great deal from her approach to problem-solving.",
+    text: "Emily is amazing at guiding teams. She has a talent for breaking down complicated tasks and fostering effective collaboration. When team members like myself needed support, she provided clear guidance and assistance, ensuring everyone stayed on track while maintaining a positive environment.",
     avatar: mariaImage,
   },
   {
     name: "Jenny Kim",
     position: "Full-Stack Developer @ Brainstation",
-    text: "Emily's technical skills are impressive, and she consistently demonstrated a strong ability to solve problems efficiently and effectively. Beyond her coding skills, her communication, leadership, and collaboration abilities made her an invaluable part of our group project. She was always proactive in sharing ideas and offering support, ensuring the team stayed focused and on track toward our goals.",
+    text: "Emily's technical skills are impressive, and she consistently demonstrated a strong ability to solve problems efficiently and effectively. Beyond her coding skills, her communication, leadership, and collaboration abilities made her an invaluable part of our group project.",
     avatar: jennyImage,
   },
   {
     name: "Former Teacher",
     position: "Educator @ Brainstation",
-    text: "Emily is a strong and confident developer who has demonstrated exceptional team leadership skills as well as great communication skills. She has the ability to jump into any new technical challenge and excel, with great attention to detail",
+    text: "Emily is a strong and confident developer who has demonstrated exceptional team leadership skills as well as great communication skills. She has the ability to jump into any new technical challenge and excel, with great attention to detail.",
     avatar: brainstationImage,
   },
 ];
