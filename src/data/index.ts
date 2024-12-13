@@ -1,6 +1,5 @@
-import darkSaasLandingPage from "@/assets/images/dark-saas-landing-page.png";
-import lightSaasLandingPage from "@/assets/images/light-saas-landing-page.png";
-import aiStartupLandingPage from "@/assets/images/ai-startup-landing-page.png";
+import instockLandingPage from "@/assets/images/instock.png";
+import brainflixLandingPage from "@/assets/images/brainflix.png";
 import whiskerWatchLandingPage from "@/assets/images/whisker-watch-landingpage.png";
 import jennyImage from "@/assets/images/jenny.jpg";
 import mariaImage from "@/assets/images/maria.jpg";
@@ -43,7 +42,7 @@ export const portfolioProjects = [
       { title: "Agile Development, GitFlow, Jira" },
     ],
     link: "https://github.com/emilyjanedev/instock",
-    image: lightSaasLandingPage,
+    image: instockLandingPage,
     isDeployed: false,
   },
   {
@@ -56,7 +55,7 @@ export const portfolioProjects = [
       { title: "Blob management with multer" },
     ],
     link: "https://github.com/emilyjanedev/emily-schur-brainflix",
-    image: aiStartupLandingPage,
+    image: brainflixLandingPage,
     isDeployed: false,
   },
 ];
