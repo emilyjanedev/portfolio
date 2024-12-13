@@ -1,16 +1,20 @@
+"use client";
 import SectionHeader from "@/components/SectionHeader";
 import Card from "@/components/Card";
 import bookImage from "@/assets/images/book-cover.png";
 import Image from "next/image";
 import { toolbox } from "@/data";
-import TechIcon from "@/components/TechIcon";
-import mapImage from "@/assets/images/map.png";
+import mapImage from "@/assets/images/vancouverMap.png";
 import headshot from "@/assets/images/headshot.jpg";
 import { hobbies } from "@/data";
 import CardHeader from "@/components/CardHeader";
 import ToolboxItems from "@/components/ToolboxItems";
+import { motion } from "framer-motion";
+import { useRef } from "react";
 
 export const AboutSection = () => {
+  const constraintRef = useRef(null);
+
   return (
     <div className="py-20 lg:py-28">
       <div className="container">
@@ -36,11 +40,14 @@ export const AboutSection = () => {
                 description="Explore the technologies and tools I use to craft exceptional
               digital experiences."
               />
-              <ToolboxItems items={toolbox} />
+              <ToolboxItems
+                items={toolbox}
+                itemsWrapperClassName="animate-moveLeft [animation-duration:40s]"
+              />
               <ToolboxItems
                 items={toolbox}
                 className="mt-6"
-                itemsWrapperClassName="-translate-x-1/2"
+                itemsWrapperClassName="animate-moveRight [animation-duration:20s]"
               />
             </Card>
           </div>
@@ -51,21 +58,23 @@ export const AboutSection = () => {
                 description="Explore my interests and hobbies beyond the digital realm."
                 className="px-6 py-6"
               />
-              <div className="relative flex-1">
+              <div className="relative flex-1" ref={constraintRef}>
                 {hobbies.map((hobby) => (
-                  <div
+                  <motion.div
                     key={hobby.title}
                     className="inline-flex items-center gap-2 px-6 bg-gradient-to-r from-emerald-400 to-emerald-200 rounded-full py-1.5 absolute"
                     style={{
                       left: hobby.left,
                       top: hobby.top,
                     }}
+                    drag
+                    dragConstraints={constraintRef}
                   >
                     <span className="font-medium text-gray-950">
                       {hobby.title}
                     </span>
                     <span>{hobby.emoji}</span>
-                  </div>
+                  </motion.div>
                 ))}
               </div>
             </Card>
@@ -76,6 +85,9 @@ export const AboutSection = () => {
                 className="h-full w-full object-cover"
               />
               <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 size-14 rounded-full outline outline-3 outline-emerald-300 flex justify-center items-center">
+                <div className="absolute inset-0 rounded-full bg-emerald-300 -z-10"></div>
+                <div className="absolute inset-0 rounded-full bg-emerald-300 -z-20 animate-ping [animation-duration:2s]"></div>
+
                 <Image
                   src={headshot}
                   alt="Emily's portrait"

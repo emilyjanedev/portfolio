@@ -26,6 +26,7 @@ const config: Config = {
         serif: "var(--font-serif)",
       },
       animation: {
+        moveRight: "moveRight 1s linear infinite",
         moveLeft: "moveLeft 1s linear infinite",
         pingLarge: "pingLarge 1s ease-in-out infinite",
         first: "moveVertical 30s ease infinite",
@@ -36,6 +37,14 @@ const config: Config = {
         shimmer: "shimmer 2s linear infinite",
       },
       keyframes: {
+        moveRight: {
+          "0%": {
+            transform: "translateX(-50%)",
+          },
+          "100%": {
+            transform: "translateX(0%)",
+          },
+        },
         moveLeft: {
           "0%": {
             transform: "translateX(0%)",

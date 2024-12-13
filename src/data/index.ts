@@ -1,6 +1,7 @@
 import darkSaasLandingPage from "@/assets/images/dark-saas-landing-page.png";
 import lightSaasLandingPage from "@/assets/images/light-saas-landing-page.png";
 import aiStartupLandingPage from "@/assets/images/ai-startup-landing-page.png";
+import whiskerWatchLandingPage from "@/assets/images/whisker-watch-landingpage.png";
 import jennyImage from "@/assets/images/jenny.jpg";
 import mariaImage from "@/assets/images/maria.jpg";
 import brainstationImage from "@/assets/images/brainstation.png";
@@ -29,7 +30,7 @@ export const portfolioProjects = [
       },
     ],
     link: "https://whiskerwatch.netlify.app/",
-    image: darkSaasLandingPage,
+    image: whiskerWatchLandingPage,
     isDeployed: true,
   },
   {
