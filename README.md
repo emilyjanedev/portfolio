@@ -1,6 +1,6 @@
 # Emily Schur - Developer Portfolio
 
-Check out the live site: [Link]()
+Check out the live site: [Link](https://www.emilyschur.dev/)
 
 A website to showcase my projects and dive into small coding explorations.
 
