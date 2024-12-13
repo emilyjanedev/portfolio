@@ -10,9 +10,9 @@ export const TapeSection = () => {
     "Performant",
     "Optimized",
     "Clean",
+    "Minimal",
     "Scalable",
     "Maintainable",
-    "Extensible",
   ];
 
   return (

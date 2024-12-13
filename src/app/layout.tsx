@@ -1,19 +1,14 @@
 import type { Metadata } from "next";
-import { Inter, Calistoga } from "next/font/google";
+import { Inter } from "next/font/google";
 import "./globals.css";
 import { twMerge } from "tailwind-merge";
 import { BackgroundGradientAnimation } from "@/components/BackgroundGradient";
 
 const inter = Inter({ subsets: ["latin"], variable: "--font-sans" });
-const calistoga = Calistoga({
-  subsets: ["latin"],
-  variable: "--font-serif",
-  weight: ["400"],
-});
 
 export const metadata: Metadata = {
-  title: "Emily Schur | Developer",
-  description: "Created with the help of Frontend Tribe",
+  title: "Emily Schur",
+  description: "Full-Stack Developer",
 };
 
 export default function RootLayout({
@@ -26,7 +21,6 @@ export default function RootLayout({
       <body
         className={twMerge(
           inter.variable,
-          calistoga.variable,
           "bg-gray-900 text-white antialiased font-sans relative"
         )}
       >
