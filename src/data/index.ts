@@ -36,7 +36,7 @@ export const portfolioProjects = [
   {
     company: "Brainstation",
     year: "2024",
-    title: "Instock: Inventory Management",
+    title: "Instock",
     results: [
       { title: "Tech Stack: Reach, Express, MySQL" },
       { title: "Developed collaboratively in a team" },

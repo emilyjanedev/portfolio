@@ -33,7 +33,7 @@ export const HeroSection = () => {
             </p>
           </div>
           <div className="flex flex-col md:flex-row justify-center items-center mt-8 gap-4">
-            <a href="#">
+            <a href="#projects">
               <MagicButton
                 title="See my Work"
                 icon={<ArrowDown className="size-4" />}

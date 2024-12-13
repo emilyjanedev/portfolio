@@ -16,7 +16,7 @@ export const AboutSection = () => {
   const constraintRef = useRef(null);
 
   return (
-    <div className="py-20 lg:py-28">
+    <div className="py-20 lg:py-28" id="about">
       <div className="container">
         <SectionHeader
           subheader="About Me"
@@ -55,14 +55,14 @@ export const AboutSection = () => {
             <Card className="h-[320px] p-0 flex flex-col md:col-span-3 lg:col-span-2">
               <CardHeader
                 title="Beyond the Code"
-                description="Explore my interests and hobbies beyond the digital realm."
+                description="Some of my interests outside of code. Try interacting with the hobby chips!"
                 className="px-6 py-6"
               />
               <div className="relative flex-1" ref={constraintRef}>
                 {hobbies.map((hobby) => (
                   <motion.div
                     key={hobby.title}
-                    className="inline-flex items-center gap-2 px-6 bg-gradient-to-r from-emerald-400 to-emerald-200 rounded-full py-1.5 absolute"
+                    className="inline-flex items-center gap-2 px-6 bg-gradient-to-r from-emerald-400 to-emerald-200 rounded-full py-1.5 absolute cursor-grab active:cursor-grabbing"
                     style={{
                       left: hobby.left,
                       top: hobby.top,
