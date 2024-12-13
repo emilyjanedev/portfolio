@@ -13,6 +13,8 @@ import TailwindIcon from "@/assets/icons/tailwind.svg";
 import NextIcon from "@/assets/icons/next.svg";
 import NodeIcon from "@/assets/icons/node.svg";
 import MySqlIcon from "@/assets/icons/mysql.svg";
+import LinkedInIcon from "@/assets/icons/linkedin.svg";
+import EmailIcon from "@/assets/icons/email.svg";
 
 export const portfolioProjects = [
   {
@@ -168,14 +170,17 @@ export const hobbies = [
 export const footerLinks = [
   {
     title: "LinkedIn",
+    icon: <LinkedInIcon />,
     href: "https://www.linkedin.com/in/emilyjschur/",
   },
   {
     title: "GitHub",
+    icon: <GitHubIcon />,
     href: "https://github.com/emilyjanedev",
   },
   {
     title: "Email",
+    icon: <EmailIcon />,
     href: "mailto:ejschur@gmail.com",
   },
 ];
