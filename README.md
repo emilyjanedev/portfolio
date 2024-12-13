@@ -11,7 +11,3 @@ Using TypeScript, Next.js, and Tailwind for this project really helped me build 
 ## Tech Stack
 
 [![My Skills](https://skillicons.dev/icons?i=ts,nextjs,tailwind,motion)](https://skillicons.dev)
-
-## Demo
-
-**Add gif**
