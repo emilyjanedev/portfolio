@@ -19,7 +19,7 @@ export const TapeSection = () => {
     <div className="py-16 lg:py-24 overflow-x-clip">
       <div className="bg-gradient-to-r from-emerald-400 to-emerald-200 -rotate-3 -mx-1">
         <div className="flex">
-          <div className="flex flex-none gap-4 pr-4 py-3 animate-moveLeft [animation-duration:30s]">
+          <div className="flex flex-none gap-4 py-3 translate-x-4">
             {[...new Array(2)].fill(0).map((_, index) => (
               <Fragment key={index}>
                 {words.map((word) => (

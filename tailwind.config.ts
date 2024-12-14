@@ -35,6 +35,7 @@ const config: Config = {
         fourth: "moveHorizontal 40s ease infinite",
         fifth: "moveInCircle 20s ease infinite",
         shimmer: "shimmer 2s linear infinite",
+        fade: "fadeIn .5s ease-in-out",
       },
       keyframes: {
         moveRight: {
@@ -83,13 +84,13 @@ const config: Config = {
         },
         moveVertical: {
           "0%": {
-            transform: "translateY(-80%)",
+            transform: "translateY(-50%)",
           },
           "50%": {
-            transform: "translateY(80%)",
+            transform: "translateY(50%)",
           },
           "100%": {
-            transform: "translateY(-80%)",
+            transform: "translateY(-50%)",
           },
         },
         shimmer: {
@@ -99,6 +100,10 @@ const config: Config = {
           to: {
             backgroundPosition: "-200% 0",
           },
+        },
+        fadeIn: {
+          from: { opacity: "0" },
+          to: { opacity: "1" },
         },
       },
     },

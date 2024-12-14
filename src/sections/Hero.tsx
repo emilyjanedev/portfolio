@@ -7,7 +7,7 @@ export const HeroSection = () => {
   return (
     <div className="py-32 md:py-48 lg:py-40 relative z-2">
       <div className="container">
-        <div className="flex flex-col items-center">
+        <div className="flex flex-col items-center animate-fade">
           <Image
             src={headshotImg}
             alt="Emily Schur headshot"

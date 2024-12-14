@@ -3,6 +3,7 @@ import brainflixLandingPage from "@/assets/images/brainflix.png";
 import whiskerWatchLandingPage from "@/assets/images/whisker-watch-landingpage.png";
 import jennyImage from "@/assets/images/jenny.jpg";
 import mariaImage from "@/assets/images/maria.jpg";
+import zanabImage from "@/assets/images/zanab.jpeg";
 import brainstationImage from "@/assets/images/brainstation.png";
 import JavaScriptIcon from "@/assets/icons/square-js.svg";
 import Html5Icon from "@/assets/icons/html5.svg";
@@ -80,6 +81,12 @@ export const testimonials = [
     position: "Educator @ Brainstation",
     text: "Emily is a strong and confident developer who has demonstrated exceptional team leadership skills as well as great communication skills. She has the ability to jump into any new technical challenge and excel, with great attention to detail.",
     avatar: brainstationImage,
+  },
+  {
+    name: "Zanab Jafry Shah",
+    position: "TA @ Brainstation",
+    text: "Emily's capstone project at BrainStation showcases her attention to detail & commitment to industry best practices. Her entire body of work showcases how Emily is always testing *herself* to take stock of her own knowledge. Emily would be an exemplary addition to any team that values stamina and rigour. ",
+    avatar: zanabImage,
   },
 ];
 

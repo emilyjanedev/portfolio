@@ -6,10 +6,12 @@ import { TestimonialsSection } from "@/sections/Testimonials";
 import { AboutSection } from "@/sections/About";
 import { ContactSection } from "@/sections/Contact";
 import { Footer } from "@/sections/Footer";
+import { BackgroundGradientAnimation } from "@/components/BackgroundGradient";
 
 export default function Home() {
   return (
     <div>
+      <BackgroundGradientAnimation></BackgroundGradientAnimation>
       <Header />
       <HeroSection />
       <ProjectsSection />

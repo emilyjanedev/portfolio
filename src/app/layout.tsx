@@ -2,7 +2,6 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import { twMerge } from "tailwind-merge";
-import { BackgroundGradientAnimation } from "@/components/BackgroundGradient";
 
 const inter = Inter({ subsets: ["latin"], variable: "--font-sans" });
 
@@ -24,7 +23,6 @@ export default function RootLayout({
           "bg-gray-900 text-white antialiased font-sans relative"
         )}
       >
-        <BackgroundGradientAnimation></BackgroundGradientAnimation>
         {children}
       </body>
     </html>
