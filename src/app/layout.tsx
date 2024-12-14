@@ -8,6 +8,9 @@ const inter = Inter({ subsets: ["latin"], variable: "--font-sans" });
 export const metadata: Metadata = {
   title: "Emily Schur",
   description: "Full-Stack Developer",
+  icons: {
+    icon: "/favicon.ico",
+  },
 };
 
 export default function RootLayout({
@@ -20,7 +23,7 @@ export default function RootLayout({
       <body
         className={twMerge(
           inter.variable,
-          "bg-gray-900 text-white antialiased font-sans relative"
+          "bg-[#001152] text-white antialiased font-sans relative"
         )}
       >
         {children}
