@@ -172,6 +172,12 @@ export const hobbies = [
     left: "45%",
     top: "70%",
   },
+  {
+    title: "Board Games",
+    emoji: "🎲",
+    left: "65%",
+    top: "20%",
+  },
 ];
 
 export const footerLinks = [
