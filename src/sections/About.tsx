@@ -1,19 +1,29 @@
 "use client";
 import SectionHeader from "@/components/SectionHeader";
 import Card from "@/components/Card";
-import bookImage from "@/assets/images/book-cover.png";
 import Image from "next/image";
-import { toolbox } from "@/data";
 import mapImage from "@/assets/images/vancouverMap.png";
 import headshot from "@/assets/images/headshot.jpg";
-import { hobbies } from "@/data";
+import { useEffect, useState } from "react";
+import { hobbies, toolbox, books } from "@/data";
 import CardHeader from "@/components/CardHeader";
 import ToolboxItems from "@/components/ToolboxItems";
 import { motion } from "framer-motion";
 import { useRef } from "react";
 
+const interval = 2000;
+
 export const AboutSection = () => {
   const constraintRef = useRef(null);
+  const [bookIndex, setBookIndex] = useState(0);
+
+  useEffect(() => {
+    const cycle = setInterval(() => {
+      setBookIndex((prevIndex) => (prevIndex + 1) % books.length);
+    }, interval);
+
+    return () => clearInterval(cycle);
+  }, [books, interval]);
 
   return (
     <div className="py-20 lg:py-28" id="about">
@@ -28,10 +38,14 @@ export const AboutSection = () => {
             <Card className="h-[320px] md:col-span-2 lg:col-span-1">
               <CardHeader
                 title="My Reads"
-                description="Explore the books shaping my perspectives."
+                description="Explore what I've been reading recently."
               />
               <div className="w-40 mx-auto mt-2 md:mt-0">
-                <Image src={bookImage} alt="book cover" />
+                <Image
+                  src={books[bookIndex]}
+                  alt="book cover"
+                  className="animate-fade"
+                />
               </div>
             </Card>
             <Card className="h-[320px] md:col-span-3 lg:col-span-2">

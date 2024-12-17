@@ -16,6 +16,13 @@ import NodeIcon from "@/assets/icons/node.svg";
 import MySqlIcon from "@/assets/icons/mysql.svg";
 import LinkedInIcon from "@/assets/icons/linkedin.svg";
 import EmailIcon from "@/assets/icons/email.svg";
+import atomicHabits from "@/assets/images/book-cover.png";
+import mistborn1 from "@/assets/images/mistborn-1.png";
+import mistborn2 from "@/assets/images/mistborn-2.png";
+import mistborn3 from "@/assets/images/mistborn-3.png";
+import wayOfShadows1 from "@/assets/images/way-of-shadows-1.png";
+import poppyWars1 from "@/assets/images/poppy-war-1.png";
+import inheritanceGames1 from "@/assets/images/inheritance-games-1.png";
 
 export const portfolioProjects = [
   {
@@ -196,4 +203,14 @@ export const footerLinks = [
     icon: <EmailIcon />,
     href: "mailto:ejschur@gmail.com",
   },
+];
+
+export const books = [
+  atomicHabits,
+  mistborn1,
+  wayOfShadows1,
+  mistborn2,
+  poppyWars1,
+  mistborn3,
+  inheritanceGames1,
 ];

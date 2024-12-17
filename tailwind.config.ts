@@ -35,7 +35,7 @@ const config: Config = {
         fourth: "moveHorizontal 40s ease infinite",
         fifth: "moveInCircle 20s ease infinite",
         shimmer: "shimmer 2s linear infinite",
-        fade: "fadeIn .5s ease-in-out",
+        fade: "fadeIn 1s ease-in-out",
       },
       keyframes: {
         moveRight: {
