@@ -1,11 +1,11 @@
 import type { Metadata } from "next";
+import { useEffect } from "react";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import { twMerge } from "tailwind-merge";
-import LogRocket from "logrocket";
+import { initLogRocket } from "@/lib/logrocket";
 
 const inter = Inter({ subsets: ["latin"], variable: "--font-sans" });
-LogRocket.init("k18tty/es-developer-portfolio");
 
 export const metadata: Metadata = {
   title: "Emily Schur",
@@ -20,6 +20,10 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+  useEffect(() => {
+    initLogRocket();
+  }, []);
+
   return (
     <html lang="en">
       <body
