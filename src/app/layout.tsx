@@ -2,8 +2,10 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import { twMerge } from "tailwind-merge";
+import LogRocket from "logrocket";
 
 const inter = Inter({ subsets: ["latin"], variable: "--font-sans" });
+LogRocket.init("k18tty/es-developer-portfolio");
 
 export const metadata: Metadata = {
   title: "Emily Schur",
