@@ -3,7 +3,7 @@ import { useEffect } from "react";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import { twMerge } from "tailwind-merge";
-import { initLogRocket } from "@/lib/logrocket";
+import ClientWrapper from "@/components/ClientWrapper"; // Import the client component
 
 const inter = Inter({ subsets: ["latin"], variable: "--font-sans" });
 
@@ -20,10 +20,6 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
-  useEffect(() => {
-    initLogRocket();
-  }, []);
-
   return (
     <html lang="en">
       <body
@@ -32,6 +28,7 @@ export default function RootLayout({
           "bg-[#001152] text-white antialiased font-sans relative"
         )}
       >
+        <ClientWrapper />
         {children}
       </body>
     </html>
