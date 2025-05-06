@@ -67,7 +67,7 @@ const Slide = ({ slide, index, current, handleSlideClick }: SlideProps) => {
     <div>
       <li
         ref={slideRef}
-        className="flex flex-1 flex-col items-center justify-center relative text-white opacity-100 transition-all duration-300 ease-in-out w-[70vmin] h-[50vmin] mx-[4vmin] z-10 hover:cursor-pointer"
+        className="flex flex-1 flex-col items-center justify-center relative text-white opacity-100 transition-all duration-300 ease-in-out w-[70vmin] h-[70vmin] mx-[4vmin] z-10 hover:cursor-pointer"
         onClick={() => handleSlideClick(index)}
         onMouseMove={handleMouseMove}
         onMouseLeave={handleMouseLeave}
@@ -148,7 +148,7 @@ export function Carousel({ slides }: CarouselProps) {
 
   return (
     <div
-      className="relative w-[70vmin] h-[50vmin] mx-auto"
+      className="relative w-[70vmin] h-[70vmin] mx-auto"
       aria-labelledby={`carousel-heading-${id}`}
     >
       <ul
