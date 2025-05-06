@@ -2,6 +2,7 @@ import instockLandingPage from "@/assets/images/instock.png";
 import brainflixLandingPage from "@/assets/images/brainflix.png";
 import whiskerWatchLandingPage from "@/assets/images/whisker-watch-landingpage.png";
 import jennyImage from "@/assets/images/jenny.jpg";
+import vanessaImage from "@/assets/images/vanessa.jpeg";
 import mariaImage from "@/assets/images/maria.jpg";
 import zanabImage from "@/assets/images/zanab.jpeg";
 import brainstationImage from "@/assets/images/brainstation.png";
@@ -73,13 +74,13 @@ export const portfolioProjects = [
 export const testimonials = [
   {
     name: "Maria Jose Cilloniz",
-    position: "Software Engineer @ Brainstation",
+    position: "Software Engineer",
     text: "Emily is amazing at guiding teams. She has a talent for breaking down complicated tasks and fostering effective collaboration. When team members like myself needed support, she provided clear guidance and assistance, ensuring everyone stayed on track while maintaining a positive environment.",
     avatar: mariaImage,
   },
   {
     name: "Jenny Kim",
-    position: "Full-Stack Developer @ Brainstation",
+    position: "Full-Stack Developer",
     text: "Emily's technical skills are impressive, and she consistently demonstrated a strong ability to solve problems efficiently and effectively. Beyond her coding skills, her communication, leadership, and collaboration abilities made her an invaluable part of our group project.",
     avatar: jennyImage,
   },
@@ -92,8 +93,14 @@ export const testimonials = [
   {
     name: "Zanab Jafry Shah",
     position: "TA @ Brainstation",
-    text: "Emily's capstone project at BrainStation showcases her attention to detail & commitment to industry best practices. Her entire body of work showcases how Emily is always testing *herself* to take stock of her own knowledge. Emily would be an exemplary addition to any team that values stamina and rigour. ",
+    text: "Emily's capstone project at BrainStation showcases her attention to detail & commitment to industry best practices. Her entire body of work showcases how Emily is always testing *herself* to take stock of her own knowledge. Emily would be an exemplary addition to any team that values stamina and rigour.",
     avatar: zanabImage,
+  },
+  {
+    name: "Vanessa Lebrun",
+    position: "Web Developer",
+    text: "Emily meticulously documented new procedures, ensuring that valuable knowledge was preserved and passed down for future efficiency. Her combined expertise in software engineering and graphic design, along with her dynamic approach and boundless creativity, make her a tremendous asset to any team.",
+    avatar: vanessaImage,
   },
 ];
 
