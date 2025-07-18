@@ -48,7 +48,7 @@ export const portfolioProjects = [
     year: "2024",
     title: "Instock",
     results: [
-      { title: "Tech Stack: Reach, Express, MySQL" },
+      { title: "Tech Stack: React, Express, MySQL" },
       { title: "Developed collaboratively in a team" },
       { title: "Agile Development, GitFlow, Jira" },
     ],
